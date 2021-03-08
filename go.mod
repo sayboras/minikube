@@ -1,6 +1,6 @@
 module k8s.io/minikube
 
-go 1.15
+go 1.16
 
 require (
 	cloud.google.com/go/storage v1.13.0
@@ -28,7 +28,6 @@ require (
 	github.com/elazarl/goproxy v0.0.0-20190421051319-9d40249d3c2f
 	github.com/elazarl/goproxy/ext v0.0.0-20190421051319-9d40249d3c2f // indirect
 	github.com/evanphx/json-patch v4.5.0+incompatible // indirect
-	github.com/go-logr/logr v0.3.0 // indirect
 	github.com/golang-collections/collections v0.0.0-20130729185459-604e922904d3
 	github.com/google/go-cmp v0.5.4
 	github.com/google/go-containerregistry v0.3.0
@@ -57,8 +56,8 @@ require (
 	github.com/libvirt/libvirt-go v3.4.0+incompatible
 	github.com/machine-drivers/docker-machine-driver-vmware v0.1.1
 	github.com/mattn/go-isatty v0.0.12
-	github.com/mitchellh/go-ps v0.0.0-20190716172923-621e5597135b
-	github.com/moby/hyperkit v0.0.0-20171020124204-a12cd7250bcd
+	github.com/mitchellh/go-ps v1.0.0
+	github.com/moby/hyperkit v0.0.0-20210108224842-2f061e447e14
 	github.com/olekukonko/tablewriter v0.0.5
 	github.com/opencontainers/go-digest v1.0.0
 	github.com/otiai10/copy v1.0.2
@@ -73,7 +72,7 @@ require (
 	github.com/shirou/gopsutil/v3 v3.21.1
 	github.com/spf13/cobra v1.1.3
 	github.com/spf13/pflag v1.0.5
-	github.com/spf13/viper v1.7.0
+	github.com/spf13/viper v1.7.1
 	github.com/xeipuuv/gojsonpointer v0.0.0-20180127040702-4e3ac2762d5f // indirect
 	github.com/xeipuuv/gojsonreference v0.0.0-20180127040603-bd5ef7bd5415 // indirect
 	github.com/xeipuuv/gojsonschema v0.0.0-20180618132009-1d523034197f
@@ -94,11 +93,10 @@ require (
 	gopkg.in/mgo.v2 v2.0.0-20190816093944-a6b53ec6cb22 // indirect
 	gopkg.in/yaml.v2 v2.4.0
 	gotest.tools/v3 v3.0.2 // indirect
-	honnef.co/go/tools v0.0.1-2020.1.4 // indirect
 	k8s.io/api v0.18.8
 	k8s.io/apimachinery v0.18.8
 	k8s.io/client-go v0.18.8
-	k8s.io/klog/v2 v2.4.0
+	k8s.io/klog/v2 v2.6.0
 	k8s.io/kubectl v0.0.0
 	k8s.io/kubernetes v1.18.5
 	sigs.k8s.io/sig-storage-lib-external-provisioner v4.0.0+incompatible // indirect
